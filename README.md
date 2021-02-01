@@ -70,10 +70,10 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/saadpasta/developerFolio.git
+$ git clone https://github.com/ORick10/Software-Developer-Page.git
 
 # Go into the repository
-$ cd developerFolio
+$ cd Software-Developer-Page
 
 # Install dependencies
 $ npm install
@@ -91,7 +91,7 @@ Generate a Github personal access token following these [instructions](https://h
 Note: Instead of creating a .env file, you can just run this command "cp env.example .env" inside the root directory
 
 ```bash
-- DeveloperFolio
+- Software-Developer-Page
   - node_modules
   - public
   - src
@@ -195,14 +195,6 @@ This section guides you to deploy your portfolio on Github pages.
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
 - Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
-
-#### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/saadpasta/developerFolio)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
 
 
 ## Technologies Used 
